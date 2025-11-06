@@ -3,15 +3,15 @@ from tkinter import ttk
 
 root = tk.Tk()
 root.configure(bg="#191970")
-root.attributes("-fullscreen", True)  # Tam ekran başlat
+root.attributes("-fullscreen", True)  # Start Fullscreen
 
-is_running = False
+is_running = False 
 number = 0
 number_minute = 0
 number_hour = 0
 control = 0
 fullscreen = True
-options_color = ["White", "Red", "Blue", "Green", "Black"]
+options_color = ["White", "Red", "Blue", "Green", "Black"] # Color Options
 
 def stop_counter():
     global is_running
